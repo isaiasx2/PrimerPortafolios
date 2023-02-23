@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./normalize.css">
+    <script src="https://kit.fontawesome.com/a12b6139b7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio</title>
+    
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">I.A Luquez</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Perfil.jfif" alt="">
+            </div>
+            <h1>Isaias Luquez</h1>
+            <h2>Desarrollador Front-End Jr / Trainee</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/isaias-luquez/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/luque.isaias/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, Isaias Luquez.</span> Soy estudiante de gestion de tecnologias IT, me gusta mantenerme en constante preparacion realizando cursos y capacitaciones en la busqueda de mi primer empleo en el sector del desarrollo.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            12-03-1991
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +541161495972
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            isaias.luquez@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Derqui,Buenos Aires, Argentina.
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Dev Jr</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>PELICULAS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-falling-burst"></i>
+                            <span>COMICS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Spring</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Agile</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Licenciatura en gestion de tecnologias de la informacion</h4>
+                        <span class="casa">Universidad nacional de Jose C Paz</span>
+                        <span class="fecha">2019-actualidad</span>
+                        <p>Licenciatura con orientacion en control y desarrollo de proyectos IT, titulo intermedio de "Analista de sistemas".</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>CODO A CODO 4.0 desarrollador JAVA FULLSTACK</h4>
+                        <span class="casa">Agencia de aprendizaje para el desarrollo</span>
+                        <span class="fecha">2022-2022</span>
+                        <p>Curso de JAVA tanto en front como back-end usando spring como framework, gestion de bases de datos con mySQL</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollador Front-End </h4>
+                        <span class="casa">BA.Multiplica UTN.BA</span>
+                        <span class="fecha">2022-2022</span>
+                        <p>Curso de desarrollo front end. HTML/CSS/JAVASCRIPT</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia laboral</h3>
+                    <div class="item der">
+                        <h4>Formador BA.Multiplica</h4>
+                        <span class="casa">BA.Multiplica UTN.BA</span>
+                        <span class="fecha">2023-actualidad</span>
+                        <p>Formador en cuanto a desarrollo web front end inicial bajo el marco del programa BA.Multiplica de la ciudad de Buenos Aires</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Auxiliar</h4>
+                        <span class="casa">Addoc</span>
+                        <span class="fecha">2018-actualidad</span>
+                        <p>Auxiliar en deposito, tareas de data entry</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Tecnico</h4>
+                        <span class="casa">Cuenta propia</span>
+                        <span class="fecha">2006-actualidad</span>
+                        <p>Reparacion de equipos informaticos, pc, celulares, tablets... tanto hardware como software, instalacion, cableado y mantenimiento de equipos para el hogar</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                
+                <div class="proyecto">
+                    <img src="img/e-commerce1.png" alt="">
+                    <div class="overlay">
+                        <h3><a href="https://elegant-sawine-dafb2e.netlify.app/" target="_blank">E-commerce</a></h3>
+                        <p>HTML/CSS</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/e-commerceReact.png" alt="">
+                    <div class="overlay">
+                        <h3><a href="https://soft-macaron-b380d1.netlify.app/" target="_blank">E-commerce</a></h3>
+                        <p>React</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/PagCodoACodo.png" alt="">
+                    <div class="overlay">
+                        <h3><a href="https://amazing-baklava-c15815.netlify.app/" target="_blank">Landing-page</a></h3>
+                        <p>HTML/CSS/JAVASCRIPT</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario de contacto-->
+                <div class="col">
+                    <form action="https://formsubmit.co/isaias.luquez@gmail.com" method="post">
+                        <input type="text" placeholder="Tú Nombre" required>
+                        <input type="tel" placeholder="Número telefónico" required>
+                        <input type="email" placeholder="Dirección de correo" required>
+                        <input type="text" placeholder="Tema">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button type="submit" >
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1644.2303242730588!2d-58.83752814347306!3d-34.49120424966481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9bdce7236ed3%3A0x7b44e3fc61a30095!2sEstaci%C3%B3n%20Presidente%20Derqui!5e0!3m2!1ses!2sar!4v1677117294091!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Noruega 722, Derqui, Buenos Aires.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Contactame: +541161495972.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: isaias.luquez@gmal.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/luque.isaias/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/isaias-luquez/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
